@@ -1,21 +1,14 @@
 function selectionSort(array) {
- 
-  let sorted = [];
-  let unsorted = array.slice();
-  let i = 0;
-  
-  while(unsorted.length > 0){
-    //Search for min
-    let min = Math.min(...unsorted);
-    //Add to sorted
-    sorted.push(min);
-    i++;
-    //Remove min from list
-    unsorted.splice(unsorted.indexOf(min),1);
+  for(let i = 0; i<array.length; i++){
+    let min = array[i];
+    let minPos = i;
+    for(let j = i; j<array.length; j++){
+      if(array[j] < min){
+        minPos = j;
+        min = array[minPos]
+      }
+    }
+    [array[i], array[minPos]] = [array[minPos], array[i]]
   }
-
-  return sorted;
-
+  return array;
 }
-
-selectionSort([1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92])
