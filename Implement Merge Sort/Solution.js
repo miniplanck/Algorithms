@@ -25,14 +25,11 @@ function merge(arr1, arr2){
 
 
 function mergeSort(array) {
-  // Only change code below this line
   if(array.length === 1){
     return array;
   }
   else{
     let [arr1, arr2] = [array.slice(0,array.length/2), array.slice(array.length/2,)]
-
     return merge(mergeSort(arr1), mergeSort(arr2));
   }
-  // Only change code above this line
 }
