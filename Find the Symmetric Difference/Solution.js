@@ -1,4 +1,4 @@
-///Find the Symmetric Difference
+// Find the Symmetric Difference
 
 function sym(...args) {
 
