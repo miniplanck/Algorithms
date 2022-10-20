@@ -8,7 +8,7 @@ Compare and update the inventory stored in a 2D array against a second 2D array 
 
 ### Solution:
 
-Check the Palindrome Solution.js file.
+Check the Solution.js file.
 
 ### Solution Breakdown:
 
