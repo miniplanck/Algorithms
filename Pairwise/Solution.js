@@ -1,4 +1,6 @@
- function pairwise(arr, arg) {
+// Pairwise
+
+function pairwise(arr, arg) {
   let sum = 0;
   let used = {};
 
