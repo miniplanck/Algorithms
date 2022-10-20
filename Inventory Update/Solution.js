@@ -1,3 +1,5 @@
+// Inventory Update
+
 function updateInventory(arr1, arr2) {
     //Create dictonary with old inventory
     let dic1 = arr1.reduce((dic,element)=>{
