@@ -24,6 +24,10 @@ https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/pairwise
 https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-bubble-sort
 );
 
+- [Selection Sort](
+https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-selection-sort
+);
+
 
 ## Developed stack:
 
