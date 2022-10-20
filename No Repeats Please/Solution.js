@@ -1,3 +1,5 @@
+// No Repeats Please
+
 function permAlone(str) {
 
   //Split into chars
