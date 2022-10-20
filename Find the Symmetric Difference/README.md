@@ -10,7 +10,7 @@ Create a function that takes two or more arrays and returns an array of their sy
 
 ### Solution:
 
-Check the Palindrome Solution.js file.
+Check the Solution.js file.
 
 ### Solution Breakdown:
 
