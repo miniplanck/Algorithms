@@ -16,6 +16,10 @@ https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/inventory-up
 https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/no-repeats-please
 );
 
+- [Pairwise](
+https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/pairwise
+);
+
 ## Developed stack:
 
 <a href="https://www.javascript.com/"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript Logo" width="50px" height="50px"></a>&nbsp;&nbsp;
