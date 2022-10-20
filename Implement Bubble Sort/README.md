@@ -17,8 +17,8 @@ Check the Solution.js file.
 
 As the descriptions hints, we must iterate over the same array several times until there are now swaps: only then do we get a sorted array. 
 
-Thus, a `while` cycle is used, together with a `swap` variable which records the number of swaps that occur during the cycle through an array.
+Thus, a `while` loop is used, together with a `swap` variable which records the number of swaps that occur during the cycle through an array.
 
-For each cycle, we check whether the current element is greater or lower than its right neighbour: if that is the case, then they are swapped and the `swap` variable is incremented. This is repeated until the `while` cycle breaks.
+For each loop, we check whether the current element is greater or lower than its right neighbour: if that is the case, then they are swapped and the `swap` variable is incremented. This is repeated until the `while` loop breaks.
 
 Finally, we return the sorted array.
