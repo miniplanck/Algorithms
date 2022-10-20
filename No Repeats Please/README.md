@@ -8,7 +8,7 @@ For example, aab should return 2 because it has 6 total permutations (`aab`, `aa
 
 ### Solution:
 
-Check the Palindrome Solution.js file.
+Check the Solution.js file.
 
 ### Solution Breakdown:
 
