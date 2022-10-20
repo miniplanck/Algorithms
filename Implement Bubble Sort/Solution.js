@@ -1,3 +1,5 @@
+//Implement Bubble Sort
+
 function bubbleSort(array) {
   //Flag which tells us if there are swaps
   let swap = 1;
