@@ -1,1 +1,9 @@
+# Coding Interview Prep - freeCodeCamp (2022)
 
+The following files contain solutions to all the proposed projects concerning the *Coding Interview Prep* course on [freeCodeCamp](https://www.freecodecamp.org/learn/coding-interview-prep/).
+
+These projects propose exercises which serve as preparation for future interviews.
+
+## Developed stack:
+
+<a href="https://www.javascript.com/"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript Logo" width="50px" height="50px"></a>&nbsp;&nbsp;
