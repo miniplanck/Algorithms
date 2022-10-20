@@ -1,3 +1,5 @@
+///Find the Symmetric Difference
+
 function sym(...args) {
 
   //Remove repeated values
@@ -7,28 +9,22 @@ function sym(...args) {
 
   //Function which applies binary op
   function binop(arr1, arr2) {
-    //Join lists
-    let allVals = arr1.concat(arr2);
+
     
-    //Remove items with more than one occurence
-    let dic = allVals.reduce((dic,value)=>{
-      if(!dic.hasOwnProperty(value)){
-        dic[value] = 1;
-      }
-      else {
-        dic[value] += 1;
-      }
+  let final = [];
 
-      return dic
-    },{})
-
-    let final = [];
-    //Return elements whose values are not greater than 1
-    for(let a in dic){
-      if(dic[a] == 1){
-        final.push(parseInt(a));
+    arr1.map(element => {
+      if(!arr2.includes(element)){
+        final.push(element)
       }
-    }
+    });
+
+    arr2.map(element => {
+      if(!arr1.includes(element)){
+        final.push(element)
+      }
+    })
+
 
    return final
   }
