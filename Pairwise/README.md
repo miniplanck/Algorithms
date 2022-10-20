@@ -2,17 +2,29 @@
 
 ### Description
 
-Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique.
+Given an array `arr`, find element pairs whose sum equal the second argument `arg` and return the sum of their indices.
 
-For example, aab should return 2 because it has 6 total permutations (`aab`, `aab`, `aba`, `aba`, `baa`, `baa`), but only 2 of them (`aba` and `aba`) don't have the same letter (in this case `a`) repeating.
+You may use multiple pairs that have the same numeric elements but different indices. Each pair should use the lowest possible available indices. Once an element has been used it cannot be reused to pair with another element. For instance, `pairwise([1, 1, 2], 3)` creates a pair `[2, 1]` using the 1 at index 0 rather than the 1 at index 1, because 0+2 < 1+2.
+
+For example `pairwise([7, 9, 11, 13, 15], 20)` returns `6`. The pairs that sum to 20 are `[7, 13]` and `[9, 11]`. We can then write out the array with their indices and values.
+
+Index	0	1	2	3	4
+Value	7	9	11	13	15
+
+Below we'll take their corresponding indices and add them.
+
+7 + 13 = 20 → Indices 0 + 3 = 3
+9 + 11 = 20 → Indices 1 + 2 = 3
+3 + 3 = 6 → Return 6
 
 ### Solution:
 
-Check the Palindrome Solution.js file.
+Check the Solution.js file.
 
 ### Solution Breakdown:
 
-In order to solve this problem, we must first determine all the permutations of the elements in the provided string: to do so, we split it and apply [Heap's Algorithm](https://en.wikipedia.org/wiki/Heap%27s_algorithm). Each permutation is recorded in the `perms` array.
+The idea of this solution is to create a dictionary which keeps track of what elements have been used to obtain the desired results: this makes it possible to get the correct index for each element, for every iteration. 
 
-Finally, we filter each element in the string using the RegEx `/(.)\1/i`, which makes use of grouping and referencing, to remove permutations with consecutive similar letters.
+Thus, we iterate over the list of values in the array: for each combination, we check whether the sum of the elements is equal to `arg`. Every time a number is used, its index is added to the dictionary.
 
+Since it is not specified that the sum must be different for every combination found, its value is changed when a new combination is found (this value must be the sum of the indexes, as required).
