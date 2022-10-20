@@ -4,6 +4,18 @@ The following files contain solutions to all the proposed projects concerning th
 
 These projects propose exercises which serve as preparation for future interviews.
 
+- [Symmetric Difference](
+https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/find-the-symmetric-difference
+);
+
+- [Inventory Update](
+https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/inventory-update
+);
+
+- [No Repeats Please](
+https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/no-repeats-please
+);
+
 ## Developed stack:
 
 <a href="https://www.javascript.com/"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript Logo" width="50px" height="50px"></a>&nbsp;&nbsp;
