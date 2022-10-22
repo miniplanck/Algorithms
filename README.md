@@ -36,6 +36,10 @@ https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-in
 https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-quick-sort
 );
 
+- [Merge Sort](
+https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-merge-sort
+);
+
 ## Developed stack:
 
 <a href="https://www.javascript.com/"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript Logo" width="50px" height="50px"></a>&nbsp;&nbsp;
