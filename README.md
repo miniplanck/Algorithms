@@ -28,6 +28,13 @@ https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-bu
 https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-selection-sort
 );
 
+- [Insertion Sort](
+https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-insertion-sort
+);
+
+- [Quick Sort](
+https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-quick-sort
+);
 
 ## Developed stack:
 
